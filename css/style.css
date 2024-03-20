@@ -454,8 +454,8 @@
         }
         
         .about .about-content .personal-info {
-            flex: 0 0 60%;
-            max-width: 60%;
+            flex: 0 0 100%;
+            max-width: 100%;
             /* background-color: red; */
             margin-top: 40px;
         }
@@ -995,3 +995,52 @@
             position: relative;
             justify-content: space-evenly;
         }
+
+
+        .skills {
+            max-width: 68.75rem;
+            margin: auto;
+            text-align: center;
+            margin-top: 2.5rem;
+          }
+          
+          .skill-header {
+            margin-bottom: 1rem;
+          }
+          
+          .skills-wrapper img {
+            padding: 1.25rem;
+          }
+          
+          .icon {
+            width: 8.875rem;
+            height: 8.25rem;
+          }
+
+
+          .icon-container {
+            position: relative;
+            overflow: hidden;
+            display: inline-block;
+        }
+        
+        .icon-text {
+            position: absolute;
+            top: calc(100% + 5px); 
+            left: 50%;
+            transform: translateX(-50%) scale(0); 
+            transition: transform 0.3s ease; 
+            color: var(--skin-color); 
+            font-size: 1.2rem; 
+            text-align: center; 
+            white-space: nowrap; 
+            pointer-events: none; 
+        }
+        
+        .icon-container:hover .icon-text {
+            transform: translateX(-50%) translateY(-100%) scale(1); /* Scale up and move above the icon on hover */
+        }
+        
+        
+        
+        
