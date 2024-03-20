@@ -582,6 +582,11 @@
             padding-left: 37px;
             padding-bottom: 50px;
         }
+
+        .about .about-content .timeline .title {
+            margin-top: -10px; 
+            margin-bottom: 20px; 
+        }
         
         .about .about-content .timeline .timeline-item:last-child {
             padding-bottom: 0;
@@ -969,7 +974,6 @@
                 font-size: 11px;
             }
         }
-
         
         @media (max-width:338px) {
             .row {
