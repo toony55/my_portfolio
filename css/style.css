@@ -960,13 +960,13 @@
         
         @media (max-width:395px) {
             .about .about-content .personal-info .info-item p {
-                font-size: 14px;
+                font-size: 12px;
             }
         }
         
         @media (max-width:365px) {
             .about .about-content .personal-info .info-item p {
-                font-size: 13px;
+                font-size: 11px;
             }
         }
         
